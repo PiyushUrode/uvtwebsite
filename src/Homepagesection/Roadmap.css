@@ -1,0 +1,14 @@
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color, var(--swiper-theme-color))
+}
+.swiper-pagination-bullet{background : var(--swiper-pagination-bullet-inactive-color, #ffffff);}
+
+
+.border-image-container {
+
+background: url("../assets/usecase/borderimg.png");
+
+background-repeat: no-repeat;
+
+}

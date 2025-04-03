@@ -1,0 +1,116 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { useRef } from "react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+const SliderComponent = () => {
+  const swiperRef = useRef(null);
+
+  const handlePrev = () => {
+    if (swiperRef.current) {
+      swiperRef.current.swiper.slidePrev();
+    }
+  };
+
+  const handleNext = () => {
+    if (swiperRef.current) {
+      swiperRef.current.swiper.slideNext();
+    }
+  };
+
+  return (
+
+    <>      <div className="relative w-full px-4 py-10 flex justify-center ">
+      <Swiper
+        ref={swiperRef}
+        modules={[Navigation, Pagination, Autoplay]}
+        spaceBetween={20}
+        slidesPerView={3}
+        loop={true}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        pagination={{ clickable: true }}
+        centeredSlides={true}
+        breakpoints={{
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        }}
+      >
+        {/* Slides */}
+        <SwiperSlide>
+          <div className="flex flex-col items-center justify-center text-left p-10 w-[100%] slider2 h-[350px] bg-contain text-white shadow-lg rounded-xl">
+            <p className="text-2xl font-bold mb-2">Event Hosting and Marketing:</p>
+            <p className="text-sm">Organize concerts, expos, and product launches in the metaverse.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex flex-col items-start justify-center p-6 w-[100%] slider1 h-[350px] bg- text-white shadow-lg rounded-xl">
+            <p className="text-2xl font-bold mb-2">Virtual Real Estate:</p>
+            <ul className="text-xs font-white w-1/2">
+              <li>Buy, sell, and rent virtual land or properties.</li>
+              <li>Develop personalized spaces like virtual homes, offices, art galleries, and entertainment zones.</li>
+            </ul>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex flex-col items-end justify-center p-6 w-[100%] h-[350px] slider3 bg-contain text-white shadow-lg rounded-xl">
+            <p className="text-2xl font-bold mb-2">Digital Commerce:</p>
+            <ul className="text-xs font-white w-1/2">
+              <li>Buy, sell, and rent virtual land or properties.</li>
+              <li>Develop personalized spaces like virtual homes, offices, art galleries, and entertainment zones.</li>
+            </ul>
+          </div>
+        </SwiperSlide>
+
+                {/* Slides */}
+                <SwiperSlide>
+          <div className="flex flex-col items-center justify-center text-left p-10 w-[100%] slider2 h-[350px] bg-contain text-white shadow-lg rounded-xl">
+            <p className="text-2xl font-bold mb-2">Event Hosting and Marketing:</p>
+            <p className="text-sm">Organize concerts, expos, and product launches in the metaverse.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex flex-col items-start justify-center p-6 w-[100%] slider1 h-[350px] bg- text-white shadow-lg rounded-xl">
+            <p className="text-2xl font-bold mb-2">Virtual Real Estate:</p>
+            <ul className="text-xs font-white w-1/2">
+              <li>Buy, sell, and rent virtual land or properties.</li>
+              <li>Develop personalized spaces like virtual homes, offices, art galleries, and entertainment zones.</li>
+            </ul>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex flex-col items-end justify-center p-6 w-[100%] h-[350px] slider3 bg-contain text-white shadow-lg rounded-xl">
+            <p className="text-2xl font-bold mb-2">Digital Commerce:</p>
+            <ul className="text-xs font-white w-1/2">
+              <li>Buy, sell, and rent virtual land or properties.</li>
+              <li>Develop personalized spaces like virtual homes, offices, art galleries, and entertainment zones.</li>
+            </ul>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+
+      {/* Custom Navigation Buttons */}
+     
+    </div>
+    <div className="relative w-full items-end justify-end pr-20 flex gap-4">
+        <button
+          className="w-12 h-12 flex items-center justify-center bg-gray-700 text-white rounded-full shadow-md hover:bg-gray-900 transition"
+          onClick={handlePrev}
+        >
+          ❮
+        </button>
+        <button
+          className="w-12 h-12 flex items-center justify-center bg-gray-700 text-white rounded-full shadow-md hover:bg-gray-900 transition"
+          onClick={handleNext}
+        >
+          ❯
+        </button>
+      </div>
+    </>
+
+  );
+};
+
+export default SliderComponent;
