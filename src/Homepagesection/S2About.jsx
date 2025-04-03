@@ -72,7 +72,7 @@ const S2About = memo(() => {
               </p>
             </div>
 
-            {/* Right Image */}
+            {/* Right Image */} 
             <div className="flex justify-center md:justify-center" data-aos="fade-left">
               <img src={about1} alt="About UVT" className="w-[80%] md:w-[80%]" />
             </div>

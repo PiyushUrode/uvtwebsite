@@ -1,6 +1,6 @@
 import { memo, useCallback, lazy, Suspense } from "react";
 import { useNavigate } from "react-router-dom";
-import img1 from "../assets/logo/logo1.png";
+import img1 from "../assets/hero/hero2.png";
 
 // Lazy load video
 const LazyVideo = lazy(() => import("./Lazyvideo"));
@@ -24,8 +24,8 @@ const S1Hero = memo(function S1Hero() {
         id="home"
         className="relative z-10 min-h-screen flex items-center justify-center py-10 flex-col gap-5 md:gap-7"
       >
-        <div className="hidden md:block w-2/5 pl-16 flex">
-          <img src={img1} alt="Logo" className="w-20" loading="lazy" />
+        <div className="hidden xl:block w-2/5 pl-16 flex">
+          <img src={img1} alt="Logo" className="w-20 lazyload" loading="lazy" />
         </div>
 
         <div className="w-fit text-center md:text-left pb-20 md:pb-36">
@@ -37,7 +37,7 @@ const S1Hero = memo(function S1Hero() {
                 WebkitTextFillColor: "black",
               }}
             >
-              UTV CINEMA
+              UVT CINEMA
             </h1>
 
             <p className="text-md sm:text-md lg:text-md text-center font-normal lg:px-10 leading-relaxed text-black font-semibold">

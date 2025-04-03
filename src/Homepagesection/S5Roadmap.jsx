@@ -115,11 +115,11 @@ const Roadmap = () => {
                 </div>
                 <div className="Sregular hidden md:block flex h-auto text-center align-middle  h-auto max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
                   <div className="flex flex-col  w-[100%]  justify-items-center justify-center align-middle text-center h-[100%] ">
-                    <p className="bg-text-custom-gradient bg-clip-text text-transparent text-left pb-2 text-4xl xl:text-6xl font-bold ">
+                    <p className="bg-text-custom-gradient bg-clip-text text-transparent text-left pb-2 text-3xl xl:text-3xl font-bold ">
                       {" "}
                       Phase1
                     </p>
-                    <p className="text-2xl xl:text-5xl text-white font-medium  ">
+                    <p className="text-2xl xl:text-4xl text-white font-medium  ">
                     Foundation (Q1 2025)
                     </p>
                   </div>
@@ -132,7 +132,7 @@ const Roadmap = () => {
                  
                 <div className="  hidden md:block  relative  my-10 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal justify-items-center justify-center align-middle text-center h-auto ">
                   <div className="flex flex-col  w-[100%]  justify-items-center justify-center align-middle text-center h-[100%] ">
-                    <p className="bg-text-custom-gradient bg-clip-text text-left xl:text-end text-transparent pb-2 text-4xl xl:text-6xl font-bold ">
+                    <p className="bg-text-custom-gradient bg-clip-text text-left xl:text-end text-transparent pb-2 text-3xl xl:text-3xl font-bold ">
                       {" "}
                       Phase2
                     </p>
@@ -308,7 +308,7 @@ const Roadmap = () => {
                 </div>
                 <div className="Sregular hidden md:block flex h-auto text-center align-middle  h-auto max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
                   <div className="flex flex-col  w-[100%]  justify-items-center justify-center align-middle text-center h-[100%] ">
-                    <p className="bg-text-custom-gradient bg-clip-text text-transparent text-left pb-2 text-4xl xl:text-6xl font-bold ">
+                    <p className="bg-text-custom-gradient bg-clip-text text-transparent text-left pb-2 text-3xl xl:text-3xl font-bold ">
                       {" "}
                       Phase3
                     </p>
@@ -326,7 +326,7 @@ const Roadmap = () => {
                  
 <div className="  hidden md:block  relative  my-10 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal justify-items-center justify-center align-middle text-center h-auto ">
   <div className="flex flex-col  w-[100%]  justify-items-center justify-center align-middle text-center h-[100%] ">
-    <p className="bg-text-custom-gradient bg-clip-text text-left xl:text-end text-transparent pb-2 text-4xl xl:text-6xl font-bold ">
+    <p className="bg-text-custom-gradient bg-clip-text text-left xl:text-end text-transparent pb-2 text-3xl xl:text-3xl font-bold ">
       {" "}
       Phase4
     </p>
@@ -439,7 +439,7 @@ className="w-7 h-7 rounded-full absolute top-1 left-1/2 transform -translate-x-1
                        
                       >
                         <p className="font-bold">⟫</p>
-                        <p className=" text-[10px] 2xl:text-[1.vw]">
+                        <p className=" text-[11px] 2xl:text-[1.vw]">
                           {" "}
                           Content Monetization: Enable creators to earn from films and events.
                         </p>
@@ -449,7 +449,7 @@ className="w-7 h-7 rounded-full absolute top-1 left-1/2 transform -translate-x-1
                        
                       >
                         <p className="font-bold">⟫</p>
-                        <p className=" text-[10px] 2xl:text-[1.vw]">
+                        <p className=" text-[11px] 2xl:text-[1.vw]">
                           {" "}
                           Global Expansion: Onboard international filmmakers and VR creators.
                         </p>
@@ -459,18 +459,18 @@ className="w-7 h-7 rounded-full absolute top-1 left-1/2 transform -translate-x-1
                        
                       >
                         <p className="font-bold">⟫</p>
-                        <p className=" text-[10px] 2xl:text-[1.vw]">
+                        <p className=" text-[11px] 2xl:text-[1.vw]">
                           {" "}
                           Mobile Integration: Launch mobile VR/AR experiences.
                         </p>
                       </div>
 
                       <div
-                        className="flex gap-2 w-[70%]"
+                        className="flex gap-2 w-[70%] "
                        
                       >
                         <p className="font-bold">⟫</p>
-                        <p className=" text-[10px] 2xl:text-[1.vw]">
+                        <p className=" text-[11px] 2xl:text-[1.vw]">
                           {" "}
 
                           Continuous Development: AI-driven environments, VR gaming, and community upgrades.
@@ -504,12 +504,12 @@ className="w-7 h-7 rounded-full absolute top-1 left-1/2 transform -translate-x-1
                 </div>
                 <div className="Sregular hidden md:block flex h-auto text-center align-middle  h-auto max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
                   <div className="flex flex-col  w-[100%]  justify-items-center justify-center align-middle text-center h-[100%] ">
-                    <p className="bg-text-custom-gradient bg-clip-text text-transparent text-left pb-2 text-4xl xl:text-6xl font-bold ">
+                    <p className="bg-text-custom-gradient bg-clip-text text-transparent text-left pb-2 text-3xl xl:text-3xl font-bold ">
                       {" "}
                       Phase5
                     </p>
-                    <p className="text-2xl xl:text-5xl text-white text-left font-medium  ">
-                    Growth & Innovation (2026 and Beyond)
+                    <p className="text-2xl xl:text-4xl text-white text-left font-medium  ">
+                    Growth & Innovation <br/>(2026 and Beyond)
                     </p>
                   </div>
                 </div>

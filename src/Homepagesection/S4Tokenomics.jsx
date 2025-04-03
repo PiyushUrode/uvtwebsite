@@ -45,8 +45,7 @@ const S4Tokenomics = memo(function S4Tokenomics() {
             className="flex flex-row flex-wrap sm:flex-row items-center font-gilroy font-bold flex-wrap justify-center gap-0 sm:gap-4  mt-5 md:pt-0  "
             id="one"
           >
-            <div
-              className="   hover:animate-popup-twice  flex flex-col   sm:w-[30%] w-full  justify-center items-center align-middle "
+            <div className="   hover:animate-popup-twice  flex flex-col   sm:w-[30%] w-full  justify-center items-center align-middle "
               
               id="two" 
             >

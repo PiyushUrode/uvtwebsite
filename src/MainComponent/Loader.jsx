@@ -1,9 +1,13 @@
-import React from 'react';
+import "../index.css";
 
 const Loader = () => (
   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-    <div className="spinner">Loading...</div>
+    <div className="loader">
+      <div className="item">
+      </div>
+    </div>
+        <span className="text">UVT CINEMA</span>
   </div>
 );
 
-export default Loader; // Ensure this is the only export
+export default Loader;

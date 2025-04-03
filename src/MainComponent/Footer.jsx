@@ -45,7 +45,15 @@ const Footer = () => {
   return (
     <>
 
-<footer className="bg-[#000000] z-10 rounded-t-3xl gap-5 relative pb-20">
+<footer className="bg-[#000000] z-10 rounded-t-3xl gap-5 relative pb-20"
+ style={{
+  boxShadow: "0px 0px 33.8px 0px #FEBE0E33 inset",
+  padding: "20px",
+  background: "#000",
+  borderRadius: "10px",
+  color: "#fff",
+}}
+>
   <div className="mx-auto w-full p-4 py-6 lg:py-8 z-10 gap-3 flex flex-col justify-center items-center">
     <div className="flex flex-wrap justify-between items-center md:items-start w-full p-6 text-white z-10">
       
